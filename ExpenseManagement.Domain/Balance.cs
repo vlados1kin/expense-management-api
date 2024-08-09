@@ -7,4 +7,6 @@ public class Balance
     public decimal Money { get; set; }
     public decimal Income { get; set; }
     public decimal Expense { get; set; }
+    
+    public User? User { get; set; }
 }
