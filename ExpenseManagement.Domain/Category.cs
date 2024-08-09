@@ -1,10 +1,13 @@
 ﻿namespace ExpenseManagement.Domain;
 
-public record Category
+public class Category
 {
-    public Guid Id { get; init; }
-    public Guid UserId { get; init; }
-    public string? Name { get; init; }
-    public string? Description { get; init; }
-    public DateTime CreatedAt { get; init; }
+    public Guid Id { get; set; }
+    public Guid UserId { get; set; }
+    public string? Name { get; set; }
+    public string? Description { get; set; }
+    public DateTime CreatedAt { get; set; }
+    
+    public User? User { get; set; }
+    public ICollection<Expense>? Expenses { get; set; }
 }

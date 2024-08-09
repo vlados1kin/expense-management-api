@@ -1,11 +1,13 @@
 ﻿namespace ExpenseManagement.Domain;
 
-public record Income
+public class Income
 {
-    public Guid Id { get; init; }
-    public Guid UserId { get; init; }
-    public decimal Amount { get; init; }
-    public string? Source { get; init; }
-    public DateTime Date { get; init; }
-    public DateTime CreatedAt { get; init; }
+    public Guid Id { get; set; }
+    public Guid UserId { get; set; }
+    public decimal Amount { get; set; }
+    public string? Source { get; set; }
+    public DateTime Date { get; set; }
+    public DateTime CreatedAt { get; set; }
+    
+    public User? User { get; set; }
 }

@@ -1,10 +1,10 @@
 ﻿namespace ExpenseManagement.Domain;
 
-public record Balance
+public class Balance
 {
-    public Guid Id { get; init; }
-    public Guid UserId { get; init; }
-    public decimal Money { get; init; }
-    public decimal Income { get; init; }
-    public decimal Expense { get; init; }
+    public Guid Id { get; set; }
+    public Guid UserId { get; set; }
+    public decimal Money { get; set; }
+    public decimal Income { get; set; }
+    public decimal Expense { get; set; }
 }
