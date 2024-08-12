@@ -17,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\ExpenseManagement.Presentation\ExpenseManagement.Presentation.csproj" />
       <ProjectReference Include="..\ExpenseManagement.Repository\ExpenseManagement.Repository.csproj" />
     </ItemGroup>
 

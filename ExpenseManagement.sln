@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManagement.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManagement.Repository", "ExpenseManagement.Repository\ExpenseManagement.Repository.csproj", "{7BDA2B9E-FC9F-4B00-A6A7-082A69C41FC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManagement.Shared", "ExpenseManagement.Shared\ExpenseManagement.Shared.csproj", "{237C321B-CA36-4CCA-80FF-962A7265AF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseManagement.Presentation", "ExpenseManagement.Presentation\ExpenseManagement.Presentation.csproj", "{F2CFC9A7-A610-4F16-B08E-BA2056771B47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{7BDA2B9E-FC9F-4B00-A6A7-082A69C41FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BDA2B9E-FC9F-4B00-A6A7-082A69C41FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BDA2B9E-FC9F-4B00-A6A7-082A69C41FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237C321B-CA36-4CCA-80FF-962A7265AF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237C321B-CA36-4CCA-80FF-962A7265AF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237C321B-CA36-4CCA-80FF-962A7265AF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237C321B-CA36-4CCA-80FF-962A7265AF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CFC9A7-A610-4F16-B08E-BA2056771B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CFC9A7-A610-4F16-B08E-BA2056771B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CFC9A7-A610-4F16-B08E-BA2056771B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CFC9A7-A610-4F16-B08E-BA2056771B47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
